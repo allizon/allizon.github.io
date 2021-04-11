@@ -4,8 +4,10 @@
     "build": "eleventy",
     "deploy": "gh-pages -d build"
   },
+  "dependencies": {
+    "eleventy": "^1.0.6"
+  },
   "devDependencies": {
-    "eleventy": "^1.0.6",
     "gh-pages": "^3.1.0"
   }
 }
