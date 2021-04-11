@@ -8,6 +8,7 @@
   }
 
   h2 {
+    @apply pt-8;
     @apply text-xl;
   }
 }
