@@ -1,5 +1,8 @@
-# Hi there, I'm Allison
+---
+layout: 'layout.njk'
+---
 
-Can you read me?
+# Hi there, I'm Allison.
 
-OK, good, progress.
+I'm just getting this page set up...patience, okay?
+
