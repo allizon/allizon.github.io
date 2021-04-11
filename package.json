@@ -1,13 +1,18 @@
 {
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy",
-    "deploy": "gh-pages -d build"
+    "start": "rm -rf docs && mkdir docs && postcss src/styles.css > docs/styles.css && eleventy --serve",
+    "build": "rm -rf docs && eleventy && NODE_ENV=production postcss src/styles.css > docs/styles.css",
+    "deploy": "gh-pages -d docs"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "gh-pages": "^3.1.0"
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.0",
+    "gh-pages": "^3.1.0",
+    "postcss": "^8.2.9",
+    "postcss-cli": "^8.3.1",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.1.1"
   }
 }
