@@ -16,6 +16,7 @@
   "dependencies": {
     "autoprefixer": "^10.2.5",
     "gatsby": "^3.3.1",
+    "gatsby-plugin-sass": "^4.3.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "tailwindcss": "^2.1.1"
