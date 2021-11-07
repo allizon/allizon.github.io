@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>allizon.github.io</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="container lg mx-auto p-4">
-    <div class="text-6xl font-black py-8">allizon.github.io</div>
-    {{ content | safe }}
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>allizon.github.io</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-purple-300 lg:bg-purple-100">
+    <div class="container mx-auto p-4">
+      <div class="text-4xl lg:text-6xl font-black py-8 bg-violet-300">
+        allizon.github.io
+      </div>
+      <div class="flex flex-row">
+        <section class="hidden lg:block">
+          <div class="mr-4 py-2 w-32">sidebar</div>
+        </section>
+        <section>
+          {{ content | safe }}
+        </section>
+      </div>
+    </div>
+  </body>
 </html>
