@@ -6,3 +6,4 @@
 
 ### Notes
 - GitHub action is stored in .github/workflows/eleventy_build.yml. Currently runs on every push to main.
+  - Workflow uses npm, not yarn, so we have to keep the package-lock.json file around.
