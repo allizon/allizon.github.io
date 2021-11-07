@@ -7,17 +7,21 @@
     <title>allizon.github.io</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="bg-purple-300 lg:bg-purple-100">
+  <body class="bg-green-100">
     <div class="container mx-auto p-4">
       <header class="text-4xl lg:text-6xl font-black py-8 bg-violet-300">
         allizon.github.io
       </header>
       <div class="flex flex-row">
         <section class="hidden lg:block"><section
-  class="mt-4 py-4 w-100 lg:w-32 border-t lg:border-0 lg:mr-4 lg:mt-1 lg:py-0"
+  class="my-4 py-2 w-100 lg:w-32 border-t border-b lg:border-0 lg:mr-4 lg:mt-1 lg:py-0"
 >
-  photo<br />
-  links<br />
+  <div class="flex flex-row lg:flex-col">
+    <span class="hidden lg:block">photo</span>
+    <a class="pr-2 lg:pr-0">github</a>
+    <a class="pr-2 lg:pr-0">linkedin</a>
+    <a class="pr-2 lg:pr-0">twitter</a>
+  </div>
 </section>
 </section>
         <section>
@@ -33,12 +37,23 @@
         </section>
       </div>
       <section class="block lg:hidden"><section
-  class="mt-4 py-4 w-100 lg:w-32 border-t lg:border-0 lg:mr-4 lg:mt-1 lg:py-0"
+  class="my-4 py-2 w-100 lg:w-32 border-t border-b lg:border-0 lg:mr-4 lg:mt-1 lg:py-0"
 >
-  photo<br />
-  links<br />
+  <div class="flex flex-row lg:flex-col">
+    <span class="hidden lg:block">photo</span>
+    <a class="pr-2 lg:pr-0">github</a>
+    <a class="pr-2 lg:pr-0">linkedin</a>
+    <a class="pr-2 lg:pr-0">twitter</a>
+  </div>
 </section>
 </section>
+      <footer class="lg:mt-8 text-sm">
+        All content (such as it is) &copy; 2021 Allison Holt.<br
+          class="lg:hidden"
+        />
+        Site made with <a href="https://www.11ty.dev/">Eleventy</a> and
+        <a href="https://tailwindcss.com/">TailwindCSS</a>.
+      </footer>
     </div>
   </body>
 </html>
