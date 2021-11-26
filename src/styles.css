@@ -11,4 +11,8 @@
     @apply pt-8;
     @apply text-xl;
   }
+
+  p {
+    @apply my-4;
+  }
 }
