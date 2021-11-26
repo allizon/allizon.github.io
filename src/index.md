@@ -13,7 +13,7 @@ I've worked for several video game companies and even won a Webby award for the 
 
 I've been at this a long time...there were no build tools for anything, these were just websites!
 
-You whippersnappers what with your frameworks and buid systems and tooling and whatnot -- y'all don't know the pain of building all of your HTML and Javascript by hand! You don't know what it's like to have to slice your images to whittle the file size down so your whole page is under a 100kb so it won't take forever to load on dial-up connections! And what's this new-fangled "CSS" thing?
+You whippersnappers, what with your frameworks and build systems and tooling and whatnot -- y'all don't know the pain of building all of your HTML and Javascript by hand! You don't know what it's like to have to slice your images to whittle the file size down so your whole page is under a 100kb so it won't take forever to load on dial-up connections! And what's this new-fangled "CSS" thing?
 
 I'm kidding, kinda -- I started there, but for the last few years I've been working primarily in Javascript (mainly React) and Ruby on Rails.
 
